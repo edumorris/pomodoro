@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% import 'macros.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block styles%} 
+{{ super() }}
+
+<link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+{% endblock %}
+
+{% block content %}
+<div class="container" style="background: rgb(194, 227, 240);">
+    <p>Either you run the day or the day runs you..</p>
+    <a class="btn btn-primary text-center text-danger" href="">Work sessions</a>
+    <hr>
+</div>
