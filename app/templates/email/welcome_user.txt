@@ -1,0 +1,9 @@
+Hello {{ user.username }},
+
+Welcome to Pitches.
+
+Your registration has been completed successfully. 
+
+Browse through different pitch categories, get inspired, give your input, vote.
+
+Thank you.

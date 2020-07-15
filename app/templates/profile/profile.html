@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <!-- Username display -->
+            <div class="col-md-4">
+                <h3>{{ user.username | capitalize }}</h3>
+
+                <!-- User bio -->
+                {% if user.email %}
+                    <p>{{ user.email }}</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
